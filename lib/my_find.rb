@@ -1,7 +1,7 @@
 require 'pry'
 
 def my_find(collection)
-  binding 'pry'
+  binding.pry
   i = 0
   while i < collection.length
     i = i + 1
